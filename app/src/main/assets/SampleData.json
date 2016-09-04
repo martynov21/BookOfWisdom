@@ -1,0 +1,1159 @@
+﻿{
+  "Groups": [
+    {
+      "UniqueId": "Group-1",
+      "Title": "Love",
+      "Description": "\"You say you love rain, but you use an umbrella to walk under it.\n\nYou say you love sun, but you seek shelter when it is shining.\n\nYou say you love wind, but when it comes, you close your window.\n\nSo that's why I'm scared when you say you love me.\"\n\n\t\t\t\t\t\tBob Marley",
+      "ImagePath": "Images/Love/group.jpg",
+      "GroupHeaderImagePath": "Images/Love/grouplist.png",
+      "Items": [
+        {
+          "UniqueId": "1000",
+          "Title": "Aristotle",
+          "Content": [
+            "\"Love is composed of a single soul inhabiting two bodies.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Aristotel400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 384 BCE.",
+          "ShortTitle": "\"Love is composed of a single soul inhabiting two bodies.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1001",
+          "Title": "Robert Heinlein",
+          "Content": [
+            "\"Love is that condition in which the happiness of another person is essential toyour own.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Heinlain400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1907.",
+          "ShortTitle": "\"Love is that condition in which the happiness of another person is essential toyour own.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1002",
+          "Title": "Albert Einstein",
+          "Content": [
+            "\"Gravitation is not responsible for people falling in love.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Einstein400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 1879.",
+          "ShortTitle": "\"Gravitation is not responsible for people falling in love.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1003",
+          "Title": "Jeremy Taylor",
+          "Content": [
+            "\"Love is friendship, set on fire.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Taylor400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 1613.",
+          "ShortTitle": "\"Love is friendship, set on fire.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1004",
+          "Title": "Elizabeth Browning",
+          "Content": [
+            "\"Love doesn’t make the world go round, love is what makes the ride worthwhile.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Browning400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "She was born in 1806.",
+          "ShortTitle": "\"Love doesn’t make the world go round, love is what makes the ride worthwhile.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1005",
+          "Title": "Friedrich Nietzsche",
+          "Content": [
+            "\"It is not a lack of love, but a lack of friendship that makes unhappy marriages.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Nietzcher400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 1844.",
+          "ShortTitle": "\"It is not a lack of love, but a lack of friendship that makes unhappy marriages.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1006",
+          "Title": "Jean Anouilh",
+          "Content": [
+            "\"Love is, above all else, the gift of oneself.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/jean400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1910.",
+          "ShortTitle": "\"Love is, above all else, the gift of oneself.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1007",
+          "Title": "Mark Twain",
+          "Content": [
+            "\"Love is the irresistible desire to be irresistibly desired.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Twain400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1835.",
+          "ShortTitle": "\"Love is the irresistible desire to be irresistibly desired.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1008",
+          "Title": "Lord Byron",
+          "Content": [
+            "\"Friendship may, and often does, grow into love, but love never subsides into friendship.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Byron400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 1788.",
+          "ShortTitle": "\"Friendship may, and often does, grow into love, but love never subsides into friendship.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1009",
+          "Title": "Maya Angelou",
+          "Content": [
+            "\"Love is like a virus.\nIt can happen to anybody at any time.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Angelou400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "She was born in 1928.",
+          "ShortTitle": "\"Love is like a virus.It can happen to anybody at any time.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1010",
+          "Title": "Antuan De Sent Exupery",
+          "Content": [
+            "\"True love begins when nothing is looked for in return.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Excury400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1900.",
+          "ShortTitle": "\"True love begins when nothing is looked for in return.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "1011",
+          "Title": "William Shakespeare",
+          "Content": [
+            "\"Love all, trust a few, do wrong to none.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Love/Shakespeare400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1564.",
+          "ShortTitle": "\"Love all, trust a few, do wrong to none.",
+          "TileImagePath": "Images/"
+        }
+      ]
+    },
+    {
+      "UniqueId": "Group-2",
+      "Title": "Wisdom",
+      "Description": "\"I ask not for any crown\nBut that which all may win.\nNor try to conquer any world\nExcept the one within.\"\n\n\t\tLouisa May Alcott",
+      "ImagePath": "Images/Wisdom/group.jpg",
+      "GroupHeaderImagePath": "Images/Wisdom/grouplist.png",
+      "Items": [
+        {
+          "UniqueId": "2000",
+          "Title": "Eleanor Roosevelt",
+          "Content": [
+            "\"No one can make you feel inferior without your consent.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Eleanor400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "She was born in 1884.",
+          "ShortTitle": "\"No one can make you feel inferior without your consent.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2001",
+          "Title": "William Shakespeare",
+          "Content": [
+            "\"The fool doth think he is wise, but the wise man knows himself to be a fool.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Shakespere400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 1564.",
+          "ShortTitle": "\"The fool doth think he is wise, but the wise man knows himself to be a fool.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2002",
+          "Title": "Mark Twain",
+          "Content": [
+            "\"Whenever you find yourself on the side of the majority, it is time to pause and reflect.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Twain400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1835.",
+          "ShortTitle": "\"Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2003",
+          "Title": "Aristotle",
+          "Content": [
+            "\"Knowing yourself is the beginning of all wisdom.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Aristotel400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 384 BCE.",
+          "ShortTitle": "\"Knowing yourself is the beginning of all wisdom.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2004",
+          "Title": "Socrates",
+          "Content": [
+            "\"The only true wisdom is in knowing you know nothing.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Socrat400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 470 BCE.",
+          "ShortTitle": "\"The only true wisdom is in knowing you know nothing.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2005",
+          "Title": "Isaac Asimov",
+          "Content": [
+            "\"The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Acimov400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in  1920.",
+          "ShortTitle": "\"The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2006",
+          "Title": "John Lennon",
+          "Content": [
+            "\"Count your age by friends, not years. Count your life by smiles, not tears.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Lenon400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1940.",
+          "ShortTitle": "\"Count your age by friends, not years. Count your life by smiles, not tears.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2007",
+          "Title": "Langston Hughes",
+          "Content": [
+            "\"Hold fast to dreams, for if dreams die life is a broken-winged bird, that cannot fly.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Langston400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1902.",
+          "ShortTitle": "\"Hold fast to dreams, for if dreams die life is a broken-winged bird, that cannot fly.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2008",
+          "Title": "Jonathan Swift",
+          "Content": [
+            "\"May you live every day of your life.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Swift400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1667.",
+          "ShortTitle": "\"May you live every day of your life.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2009",
+          "Title": "Aristotle",
+          "Content": [
+            "\"It is the mark of an educated mind to be able to entertain a thought without accepting it.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Aristotel400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 384 BCE.",
+          "ShortTitle": "\"It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "2010",
+          "Title": "Paulo Coelho",
+          "Content": [
+            "\"The secret of life, though, is to fall seven times and to get up eight times.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Coelho400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1947.",
+          "ShortTitle": "\"The secret of life, though, is to fall seven times and to get up eight times.",
+          "TileImagePath": "Images/Wisdom/Coelho400.jpg"
+        },
+        {
+          "UniqueId": "2011",
+          "Title": "Confucius",
+          "Content": [
+            "By three methods we may learn wisdom:\n\"First, by reflection, which is noblest.\"\n\"Second, by imitation, which is easiest.\"\n\"And third by experience, which is the bitterest.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Wisdom/Confucious400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 551 BCE.",
+          "ShortTitle": "\"By three methods we may learn wisdom: First, by reflection, which is noblest.Second, by imitation, which is easiest.And third by experience, which is the bitterest.",
+          "TileImagePath": "Images/"
+        }
+      ]
+    },
+    {
+      "UniqueId": "Group-3",
+      "Title": "Success",
+      "Description": "\"Success is not the triumph over regress,\nSuccess is the power to suppress.\nSuccess is not the money or the fame,\nSuccess is, knowing you are still the same.\nSuccess is not the power or the pride.\nSuccess is the knowing how to hide.\nSuccess is not a gift or gain,\nSuccess is accepting and believing in your name.\"\n\t\t\t\tJeff Rushton",
+      "ImagePath": "Images/Success/group.jpg",
+      "GroupHeaderImagePath": "Images/Success/grouplist.png",
+      "Items": [
+        {
+          "UniqueId": "3000",
+          "Title": "Henry Ford",
+          "Content": [
+            "\"Failure is simply the opportunity to begin again, this time more intelligently.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Ford400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1863.",
+          "ShortTitle": "\"Failure is simply the opportunity to begin again, this time more intelligently",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3001",
+          "Title": "Winston Churchill",
+          "Content": [
+            "\"Success is walking from failure to failure with no loss of enthusiasm.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Winston400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1874.",
+          "ShortTitle": "\"Success is walking from failure to failure with no loss of enthusiasm.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3002",
+          "Title": "Bill Cosby",
+          "Content": [
+            "\"I don’t know the key to success, but the key to failure is trying to please everybody.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Cosby400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1937.",
+          "ShortTitle": "\"I don’t know the key to success, but the key to failure is trying to please everybody.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3003",
+          "Title": "Theodore Roosevelt",
+          "Content": [
+            "\"It is hard to fail, but it is worse never to have tried to succeed.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Rosevelt400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1858.",
+          "ShortTitle": "\"It is hard to fail, but it is worse never to have tried to succeed.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3004",
+          "Title": "Woody Allen",
+          "Content": [
+            "\"Eighty percent of success is showing up.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/WAllen400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1935.",
+          "ShortTitle": "\"Eighty percent of success is showing up.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3005",
+          "Title": "Benjamin Franklin",
+          "Content": [
+            "\"Never leave that till tomorrow which you can do today.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Franclin400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1706.",
+          "ShortTitle": "\"Never leave that till tomorrow which you can do today.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3006",
+          "Title": "David Allen",
+          "Content": [
+            "\"You can do anything, but not everything.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Allen400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1945.",
+          "ShortTitle": "\"You can do anything, but not everything.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3007",
+          "Title": "Aristotle",
+          "Content": [
+            "\"We are what we repeatedly do. Excellence then is not an act but a habit.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Aristotele400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 384 BCE.",
+          "ShortTitle": "\"We are what we repeatedly do. Excellence then is not an act but a habit.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3008",
+          "Title": "Thomas Edison",
+          "Content": [
+            "\"Opportunity is missed by most people, because it is dressed in overalls and looks like work.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Edison400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1847.",
+          "ShortTitle": "\"Opportunity is missed by most people, because it is dressed in overalls and looks like work.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3009",
+          "Title": "Sven Goran Eriksson",
+          "Content": [
+            "\"The greatest barrier to success is the fear of failure.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Sven400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1948.",
+          "ShortTitle": "\"The greatest barrier to success is the fear of failure.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3010",
+          "Title": "Nelson Mandela",
+          "Content": [
+            "\"Money won’t create success.\nThe freedom to make it will.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Manddela400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1918.",
+          "ShortTitle": "\"Money won’t create success.The freedom to make it will.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "3011",
+          "Title": "Warren Buffett",
+          "Content": [
+            "\"I will tell you how to become rich.\nClose the doors.\nBe fearful when others aregreedy.\nBe greedy when others are fearful.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Success/Buffen400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1930.",
+          "ShortTitle": "\"I will tell you how to become rich.Close the doors.Be fearful when others aregreedy.Be greedy when others are fearful.",
+          "TileImagePath": "Images/"
+        }
+      ]
+    },
+    {
+      "UniqueId": "Group-4",
+      "Title": "Friendship",
+      "Description": "\"I think we are and will always\nbe lonely people in a lonely\nworld under lonely stars.\nWe can never starve our loneliness.\nWe can only hope that by the\ncompany of others,\nit doesn't devour us.\"\n\t\t\tTesty McTesterson",
+      "ImagePath": "Images/Friendship/group.jpg",
+      "GroupHeaderImagePath": "Images/Friendship/grouplist.png",
+      "Items": [
+        {
+          "UniqueId": "4000",
+          "Title": "Clive Staples Lewis",
+          "Content": [
+            "\"Friendship is born at that moment when one man says to another:\n\"What! You too?\"\nI thought that no one but myself...\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Lewis400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1898.",
+          "ShortTitle": "\"Friendship is born at that moment when one man says to another:What! You too?I thought that no one but myself...",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4001",
+          "Title": "Albert Camus",
+          "Content": [
+            "\"Don't walk behind me I may not lead.\nDon't walk in front of me I may not follow.\nJust walk beside me and be my friend.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Camus400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1913.",
+          "ShortTitle": "\"Don't walk behind me I may not lead.Don't walk in front of me I may not follow.Just walk beside me and be my friend.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4002",
+          "Title": "Elbert Hubbard",
+          "Content": [
+            "\"A friend is someone who knows all about you and still loves you.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Hubbard400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1856.",
+          "ShortTitle": "\"A friend is someone who knows all about you and still loves you.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4003",
+          "Title": "Mark Twain",
+          "Content": [
+            "\"Good friends, good books, and a sleepy conscience:\nthis is the ideal life.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Twain400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1835.",
+          "ShortTitle": "\"Good friends, good books, and a sleepy conscience: this is the ideal life.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4004",
+          "Title": "Alan Alexander Milne",
+          "Content": [
+            "\"If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Mline400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1882.",
+          "ShortTitle": "\"If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4005",
+          "Title": "Bob Marley",
+          "Content": [
+            "\"The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Marley400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1945.",
+          "ShortTitle": "\"The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4006",
+          "Title": "Marlene Dietrich",
+          "Content": [
+            "\"It's the friends you can call up at 4 a.m. that matter.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Marlene400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "She was born in 1901.",
+          "ShortTitle": "\"It's the friends you can call up at 4 a.m. that matter.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4007",
+          "Title": "Alan Alexander Milne",
+          "Content": [
+            "\"We'll be Friends Forever, won't we, Pooh?\"-asked Piglet.\n\"Even longer\",- Pooh answered."
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Mline400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1882.",
+          "ShortTitle": "\"We'll be Friends Forever, won't we, Pooh?'asked Piglet.Even longer,'Pooh answered.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4008",
+          "Title": "Alan Alexander Milne",
+          "Content": [
+            "Piglet sidled up to Pooh from behind.\n\"Pooh?\"-he whispered.\n\"Yes, Piglet?\"\n\"Nothing\",- said Piglet,\ntaking Pooh's hand.\n\"I just wanted to be sure of you.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Mline400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1882.",
+          "ShortTitle": "\"Piglet sidled up to Pooh from behind.Pooh?-he whispered.Yes, Piglet?Nothing,- said Piglet,taking Pooh's hand.I just wanted to be sure of you.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4009",
+          "Title": "Muhammad Ali",
+          "Content": [
+            "\"Friendship is the hardest thing in the world to explain.\nIt's not something you learn in school.\nBut if you haven't learned the meaning of friendship, you really haven't learned anything.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Ali400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 1942.",
+          "ShortTitle": "\"Friendship is the hardest thing in the world to explain.It's not something you learn in school.But if you haven't learned the meaning of friendship, you really haven't learned anything.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4010",
+          "Title": "Richelle Mead",
+          "Content": [
+            "\"Only a true best friend can protect you from your immortal enemies.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Mead400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "She was born in 1976.",
+          "ShortTitle": "\"Only a true best friend can protect you from your immortal enemies.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "4011",
+          "Title": "Irving Stone",
+          "Content": [
+            "\"There are no faster or firmer friendships than those formed between people who love the same books.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Friendship/Irving400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1903.",
+          "ShortTitle": "\"There are no faster or firmer friendships than those formed between people who love the same books.",
+          "TileImagePath": "Images/"
+        }
+      ]
+    },
+    {
+      "UniqueId": "Group-5",
+      "Title": "Inspirational",
+      "Description": "\"Congratulations!\n\nToday is your day.\n\nYou're off to Great Places!\n\nYou're off and away!\"\n\n\t\tDr. Seuss",
+      "ImagePath": "Images/Inspirational/group.jpg",
+      "GroupHeaderImagePath": "Images/Inspirational/grouplist.png",
+      "Items": [
+        {
+          "UniqueId": "5000",
+          "Title": "Oscar Wilde",
+          "Content": [
+            "\"Be yourself, everyone else is already taken.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Oscar400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1854.",
+          "ShortTitle": "\"Be yourself, everyone else is already taken.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5001",
+          "Title": "William Purkey",
+          "Content": [
+            "\"You've gotta dance like there's nobody watching,\nlove like you'll never be hurt,\nsing like there's nobody listening,\nand live like it's heaven on earth.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Purkey400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1929.",
+          "ShortTitle": "\"You've gotta dance like there's nobody watching,love like you'll never be hurt,sing like there's nobody listening,and live like it's heaven on earth",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5002",
+          "Title": "Mahatma Gandhi",
+          "Content": [
+            "\"Be the change that you wish to see in the world.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Gandi400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1869.",
+          "ShortTitle": "\"Be the change that you wish to see in the world.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5003",
+          "Title": "Mahatma Gandhi",
+          "Content": [
+            "\"Live as if you were to die tomorrow.\nLearn as if you were to live forever.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Gandi400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1869.",
+          "ShortTitle": "\"Live as if you were to die tomorrow.Learn as if you were to live forever.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5004",
+          "Title": "Martin Luther King",
+          "Content": [
+            "\"Darkness cannot drive out darkness:\nonly light can do that.\nHate cannot drive out hate:\nonly love can do that.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/King400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1929.",
+          "ShortTitle": "\"Darkness cannot drive out darkness:only light can do that.Hate cannot drive out hate:only love can do that",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5005",
+          "Title": "Friedrich Nietzsche",
+          "Content": [
+            "\"Without music, life would be a mistake.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Neitshe400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 1844.",
+          "ShortTitle": "\"Without music, life would be a mistake.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5006",
+          "Title": "Stephen Chbosky",
+          "Content": [
+            "\"We accept the love we think we deserve.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Stephen400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1970.",
+          "ShortTitle": "\"We accept the love we think we deserve.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5007",
+          "Title": "Marilyn Monroe",
+          "Content": [
+            "\"Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Monro400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "She was born in 1926.",
+          "ShortTitle": "\"Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5008",
+          "Title": "Albert Einstein",
+          "Content": [
+            "\"There are only two ways to live your life.\nOne is as though nothing is a miracle.\nThe other is as though everything is a miracle.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Albert400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1879.",
+          "ShortTitle": "\"There are only two ways to live your life.One is as though nothing is a miracle.The other is as though everything is a miracle.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5009",
+          "Title": "Bil Keane",
+          "Content": [
+            "\"Yesterday is history,\ntomorrow is a mystery,\ntoday is a gift of God,\nwhich is why we call it the present.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/BilKaene400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1922.",
+          "ShortTitle": "\"Yesterday is history,tomorrow is a mystery,today is a gift of God,which is why we call it the present.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5010",
+          "Title": "Oscar Wilde",
+          "Content": [
+            "\"We are all in the gutter, but some of us are looking at the stars.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Oscar400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1854.",
+          "ShortTitle": "\"We are all in the gutter, but some of us are looking at the stars.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "5011",
+          "Title": "Thomas Edison",
+          "Content": [
+            "\"I have not failed.\nI've just found 10,000 ways that won't work.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Inspirational/Edison400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1847.",
+          "ShortTitle": "\"I have not failed. I've just found 10,000 ways that won't work.",
+          "TileImagePath": "Images/"
+        }
+      ]
+    },
+    {
+      "UniqueId": "Group-6",
+      "Title": "Family",
+      "Description": "\"I may not always be with you\n\nBut when we're far apart\n\nRemember you will be with me\n\nRight inside my heart.\"\n\n\t\t\tMarc Wambolt",
+      "ImagePath": "Images/Family/group.jpg",
+      "GroupHeaderImagePath": "Images/Family/grouplist.png",
+      "Items": [
+        {
+          "UniqueId": "6000",
+          "Title": "Lee Iacocca",
+          "Content": [
+            "\"The only rock I know that stays steady, the only institution I know that works is the family.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Laccota400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1924.",
+          "ShortTitle": "\"The only rock I know that stays steady, the only institution I know that works is the family.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6001",
+          "Title": "George Burns",
+          "Content": [
+            "\"Happiness is having a large, loving, caring, close-knit family in another city.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Warren400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1896.",
+          "ShortTitle": "\"Happiness is having a large, loving, caring, close-knit family in another city.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6002",
+          "Title": "George Bernard Shaw",
+          "Content": [
+            "\"A happy family is but an earlier heaven.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Shaw400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1856.",
+          "ShortTitle": "\"A happy family is but an earlier heaven.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6003",
+          "Title": "Bill Cosby",
+          "Content": [
+            "\"You know the only people who are always sure about the proper way to raise children?\nThose who’ve never had any.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Cosby400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1937.",
+          "ShortTitle": "\"You know the only people who are always sure about the proper way to raise children?Those who’ve never had any.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6004",
+          "Title": "Trey Parker",
+          "Content": [
+            "\"Family isn’t about whose blood you have.\nIt’s about who you care about.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Parker400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1969.",
+          "ShortTitle": "\"Family isn’t about whose blood you have.It’s about who you care about.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6005",
+          "Title": "Leo Tolstoy",
+          "Content": [
+            "\"All happy families resemble one another.\nEach unhappy family is unhappy in its own way.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Leo400.jpg",
+          "Rating": 6,
+          "YearOfBorn": "He was born in 1828.",
+          "ShortTitle": "\"All happy families resemble one another.Each unhappy family is unhappy in its own way.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6006",
+          "Title": "Pope John Paul II",
+          "Content": [
+            "\"As the family goes, so goes the nation and so goes the whole world in which we live.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/John400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1920.",
+          "ShortTitle": "\"As the family goes, so goes the nation and so goes the whole world in which we live.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6007",
+          "Title": "George Bernard Shaw",
+          "Content": [
+            "\"If you cannot get rid of the family skeleton, you may as well make it dance.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Shaw400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1856.",
+          "ShortTitle": "\"If you cannot get rid of the family skeleton, you may as well make it dance.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6008",
+          "Title": "Charles Kuralt",
+          "Content": [
+            "\"The love of family and the admiration of friends is much more important than wealth and privilege.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Kuralt400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1934.",
+          "ShortTitle": "\"The love of family and the admiration of friends is much more important than wealth and privilege.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6009",
+          "Title": "Barbara Bush",
+          "Content": [
+            "\"To us, family means putting your arms around each other and being there.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Barbara400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "She was born in 1925.",
+          "ShortTitle": "\"To us, family means putting your arms around each other and being there.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6010",
+          "Title": "Alex Haley",
+          "Content": [
+            "\"In every conceivable manner, the family is link to our past, bridge to our future.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Haley400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1921.",
+          "ShortTitle": "\"In every conceivable manner, the family is link to our past, bridge to our future.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "6011",
+          "Title": "Aishwarya Rai Bachchan",
+          "Content": [
+            "\"My family is my strength and my weakness.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Family/Raavan400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "She was born in 1973.",
+          "ShortTitle": "\"My family is my strength and my weakness.",
+          "TileImagePath": "Images/"
+        }
+      ]
+    },
+    {
+      "UniqueId": "Group-7",
+      "Title": "Life",
+      "Description": "\"If you're reading this...\n\nCongratulations, you're alive.\n\nIf that's not something to smile about,\n\nthen I don't know what is.\"\n\n\t\t\t\tChad Sugg",
+      "ImagePath": "Images/Life/group.jpg",
+      "GroupHeaderImagePath": "Images/Life/grouplist.png",
+      "Items": [
+        {
+          "UniqueId": "7000",
+          "Title": "Dr. Seuss",
+          "Content": [
+            "\"Don't cry because it's over,\nsmile because it happened.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Dr400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1904.",
+          "ShortTitle": "Don't cry because it's over, smile because it happened.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7001",
+          "Title": "Mae West",
+          "Content": [
+            "\"You only live once,\nbut if you do it right,\nonce is enough.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/West400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "She was born in 1893.",
+          "ShortTitle": "\"You only live once,but if you do it right,once is enough.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7002",
+          "Title": "Robert Frost",
+          "Content": [
+            "\"In three words\nI can sum up everything\nI've learned about life:\nit goes on.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Frost400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1874.",
+          "ShortTitle": "\"In three words I can sum up everything I've learned about life: it goes on.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7003",
+          "Title": "Oscar Wilde",
+          "Content": [
+            "\"To live is the rarest thing in the world.\nMost people exist, that is all.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Oscar400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1854.",
+          "ShortTitle": "\"To live is the rarest thing in the world. Most people exist, that is all.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7004",
+          "Title": "Andre Gide",
+          "Content": [
+            "\"It is better to be hated for what you are than to be loved for what you are not.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Gide400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1869.",
+          "ShortTitle": "\"It is better to be hated for what you are than to be loved for what you are not.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7005",
+          "Title": "Allen Saunders",
+          "Content": [
+            "\"Life is what happens to you while you're busy making other plans.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Saunders400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1899.",
+          "ShortTitle": "\"Life is what happens to you while you're busy making other plans.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7006",
+          "Title": "Mark Twain",
+          "Content": [
+            "\"Good friends, good books, and a sleepy conscience:\nthis is the ideal life.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Twain400.jpg",
+          "Rating": 9,
+          "YearOfBorn": "He was born in 1835.",
+          "ShortTitle": "\"Good friends, good books, and a sleepy conscience: this is the ideal life.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7007",
+          "Title": "J.K. Rowling",
+          "Content": [
+            "\"It does not do to dwell on dreams and forget to live.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Rowling400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "She was born in 1965.",
+          "ShortTitle": "\"It does not do to dwell on dreams and forget to live.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7008",
+          "Title": "Douglas Adams",
+          "Content": [
+            "\"I may not have gone where I intended to go,\nbut I think I have ended up where I needed to be.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Douglas400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1952.",
+          "ShortTitle": "\"I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7009",
+          "Title": "Dr. Seuss",
+          "Content": [
+            "\"Today you are You,\nthat is truer than true.\nThere is no one alive\nwho is Youer than You.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Dr400.jpg",
+          "Rating": 7,
+          "YearOfBorn": "He was born in 1904.",
+          "ShortTitle": "\"Today you are You,that is truer than true. There is no one alive who is Your than You.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7010",
+          "Title": "Pablo Picasso",
+          "Content": [
+            "\"Everything you can imagine is real.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Picasso400.jpg",
+          "Rating": 10,
+          "YearOfBorn": "He was born in 1881.",
+          "ShortTitle": "\"Everything you can imagine is real.",
+          "TileImagePath": "Images/"
+        },
+        {
+          "UniqueId": "7011",
+          "Title": "Woody Allen",
+          "Content": [
+            "\"I'm not afraid of death.\nI just don't want to be there when it happens.\""
+          ],
+          "Favorite": false,
+          "ImagePath": "Images/Life/Woody400.jpg",
+          "Rating": 8,
+          "YearOfBorn": "He was born in 1935.",
+          "ShortTitle": "\"I'm not afraid of death. I just don't want to be there when it happens.",
+          "TileImagePath": "Images/"
+        }
+      ]
+    }
+  ]
+}

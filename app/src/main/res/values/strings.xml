@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Book Of Wisdom</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_detail_group">Detail Group Activity</string>
+    <string name="description_of_group">Description of Group</string>
+    <string name="title_activity_quote">Quote Activity</string>
+    <string name="right">Right</string>
+    <string name="favorite">Favorite</string>
+    <string name="left">left</string>
+</resources>
