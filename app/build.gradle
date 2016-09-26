@@ -28,4 +28,10 @@ dependencies {
     compile 'com.android.support:support-v4:24.1.1'
     compile 'com.android.support:cardview-v7:21.0.+'
     compile 'com.android.support:recyclerview-v7:21.0.+'
+
+    //Core card library
+    compile 'com.github.gabrielemariotti.cards:library:1.9.1'
+
+    //Extra card library, it is required only if you want to use integrations with other libraries
+    compile 'com.github.gabrielemariotti.cards:library-extra:1.9.1'
 }

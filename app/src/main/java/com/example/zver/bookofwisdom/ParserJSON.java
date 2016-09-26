@@ -31,7 +31,7 @@ public class ParserJSON {
         final String WISDOM_GROUPS = "Groups";
         final String WISDOM_TITLE = "Title";
         final String WISDOM_DESCRIPTION = "Description";
-        final String WISDOM_IMAGE_PATH = "ImagePath";
+        final String WISDOM_IMAGE_PATH = "GroupHeaderImagePath";
 
 
         JSONObject bookJSON = new JSONObject(jsonStr);

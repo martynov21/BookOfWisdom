@@ -1,5 +1,14 @@
 package com.example.zver.bookofwisdom.DataArticle;
 
+import android.content.Context;
+import android.content.res.AssetManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.util.Log;
+
+import java.io.IOException;
+import java.io.InputStream;
+
 /**
  * Created 31.07.2016.
  */
@@ -49,5 +58,21 @@ public class Items {
 
     public void setShortTitle(String shortTitle) {
         ShortTitle = shortTitle;
+    }
+
+    public Bitmap getImage(Context context) {
+        Bitmap image = null;
+        try {
+            AssetManager assetManager = context.getAssets();
+            InputStream in = assetManager.open(getImagePath());
+            image = BitmapFactory.decodeStream(in);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+
+        if (image == null) {
+            Log.e("##Error", "Bitmap image - null");
+        }
+        return image;
     }
 }

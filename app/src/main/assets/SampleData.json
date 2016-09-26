@@ -3,7 +3,7 @@
     {
       "UniqueId": "Group-1",
       "Title": "Love",
-      "Description": "\"You say you love rain, but you use an umbrella to walk under it.\n\nYou say you love sun, but you seek shelter when it is shining.\n\nYou say you love wind, but when it comes, you close your window.\n\nSo that's why I'm scared when you say you love me.\"\n\n\t\t\t\t\t\tBob Marley",
+      "Description": "\"\tYou say you love rain, \nbut you use an umbrella to walk under it.\n\tYou say you love sun,\nbut you seek shelter when it is shining.\n\tYou say you love wind,\nbut when it comes, you close your window.\n\tSo that's why I'm scared\nwhen you say you love me.\"\n\n\t\t\t\tBob Marley",
       "ImagePath": "Images/Love/group.jpg",
       "GroupHeaderImagePath": "Images/Love/grouplist.png",
       "Items": [
@@ -168,7 +168,7 @@
     {
       "UniqueId": "Group-2",
       "Title": "Wisdom",
-      "Description": "\"I ask not for any crown\nBut that which all may win.\nNor try to conquer any world\nExcept the one within.\"\n\n\t\tLouisa May Alcott",
+      "Description": "\"I ask not for any crown, but that which all may win.\nNor try to conquer any world, except the one within.\"\n\n\t\t\t\tLouisa May Alcott",
       "ImagePath": "Images/Wisdom/group.jpg",
       "GroupHeaderImagePath": "Images/Wisdom/grouplist.png",
       "Items": [
@@ -333,7 +333,7 @@
     {
       "UniqueId": "Group-3",
       "Title": "Success",
-      "Description": "\"Success is not the triumph over regress,\nSuccess is the power to suppress.\nSuccess is not the money or the fame,\nSuccess is, knowing you are still the same.\nSuccess is not the power or the pride.\nSuccess is the knowing how to hide.\nSuccess is not a gift or gain,\nSuccess is accepting and believing in your name.\"\n\t\t\t\tJeff Rushton",
+      "Description": "\"\tSuccess is not the triumph over regress,\n\tSuccess is the power to suppress.\n\tSuccess is not the money or the fame,\n\tSuccess is, knowing you are still the same.\n\tSuccess is not the power or the pride.\n\tSuccess is the knowing how to hide.\n\tSuccess is not a gift or gain,\n\tSuccess is accepting and believing in your name.\"\n\n\t\t\t\tJeff Rushton",
       "ImagePath": "Images/Success/group.jpg",
       "GroupHeaderImagePath": "Images/Success/grouplist.png",
       "Items": [
@@ -498,7 +498,7 @@
     {
       "UniqueId": "Group-4",
       "Title": "Friendship",
-      "Description": "\"I think we are and will always\nbe lonely people in a lonely\nworld under lonely stars.\nWe can never starve our loneliness.\nWe can only hope that by the\ncompany of others,\nit doesn't devour us.\"\n\t\t\tTesty McTesterson",
+      "Description": "\"I think we are and will always be lonely people in a lonely world under lonely stars.\nWe can never starve our loneliness.\nWe can only hope that by the company of others, it doesn't devour us.\"\n\n\t\t\t\tTesty McTesterson",
       "ImagePath": "Images/Friendship/group.jpg",
       "GroupHeaderImagePath": "Images/Friendship/grouplist.png",
       "Items": [
@@ -663,7 +663,7 @@
     {
       "UniqueId": "Group-5",
       "Title": "Inspirational",
-      "Description": "\"Congratulations!\n\nToday is your day.\n\nYou're off to Great Places!\n\nYou're off and away!\"\n\n\t\tDr. Seuss",
+      "Description": "\"Congratulations!\nToday is your day. You're off to Great Places! You're off and away!\"\n\n\t\t\t\tDr. Seuss",
       "ImagePath": "Images/Inspirational/group.jpg",
       "GroupHeaderImagePath": "Images/Inspirational/grouplist.png",
       "Items": [
@@ -828,7 +828,7 @@
     {
       "UniqueId": "Group-6",
       "Title": "Family",
-      "Description": "\"I may not always be with you\n\nBut when we're far apart\n\nRemember you will be with me\n\nRight inside my heart.\"\n\n\t\t\tMarc Wambolt",
+      "Description": "\"I may not always be with you, but when we're far apart.\nRemember you will be with me, right inside my heart.\"\n\n\t\t\t\tMarc Wambolt",
       "ImagePath": "Images/Family/group.jpg",
       "GroupHeaderImagePath": "Images/Family/grouplist.png",
       "Items": [
@@ -993,7 +993,7 @@
     {
       "UniqueId": "Group-7",
       "Title": "Life",
-      "Description": "\"If you're reading this...\n\nCongratulations, you're alive.\n\nIf that's not something to smile about,\n\nthen I don't know what is.\"\n\n\t\t\t\tChad Sugg",
+      "Description": "\"If you're reading this...\nCongratulations, you're alive.\nIf that's not something to smile about, then I don't know what is.\"\n\n\t\t\t\tChad Sugg",
       "ImagePath": "Images/Life/group.jpg",
       "GroupHeaderImagePath": "Images/Life/grouplist.png",
       "Items": [

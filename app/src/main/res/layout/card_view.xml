@@ -1,49 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="110dp"
-    android:padding="5dp">
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:paddingTop="5dp">
 
     <android.support.v7.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/cv"
-        card_view:cardCornerRadius="5dp">
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true">
 
         <RelativeLayout
+            android:id="@+id/main"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:background="#e7f0ff">
+            android:background="@android:color/white">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:id="@+id/person_photo"
-                android:layout_alignParentLeft="true"
+                android:id="@+id/img_group_image"
+                android:layout_width="fill_parent"
+                android:layout_height="144dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginRight="16dp"
-                />
+                android:scaleType="fitXY" />
 
             <TextView
+                android:id="@+id/txt_title_group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/person_name"
-                android:layout_toRightOf="@+id/person_photo"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_alignParentTop="true"
-                android:textSize="22sp"
+                android:layout_below="@+id/img_group_image"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:paddingTop="24dp"
                 android:text="Love"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="24sp"
+
                 />
 
             <TextView
+                android:id="@+id/txt_content_group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/person_age"
-                android:layout_toRightOf="@+id/person_photo"
-                android:layout_below="@+id/person_name"
-                />
+                android:layout_below="@+id/buttonBar"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_centerHorizontal="true"
+                android:text="CONTENT"
+                android:textColor="@color/my_color_text" />
+
+
+            <LinearLayout
+                android:id="@+id/buttonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_title_group"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_share_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="8dp"
+                    android:text="Share"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btn_learn_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="8dp"
+                    android:text="More Quotes"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_collapse"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="?android:selectableItemBackground"
+                android:scaleType="centerInside"
+                android:src="@drawable/down_collapse"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txt_title_group"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"/>
+
+
 
         </RelativeLayout>
 

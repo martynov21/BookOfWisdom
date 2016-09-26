@@ -1,82 +1,83 @@
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.zver.bookofwisdom.QuoteActivity$PlaceholderFragment">
+    tools:context="com.example.zver.bookofwisdom.QuoteActivity$PlaceholderFragment"
+    android:background="@drawable/paper">
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:id="@+id/imageQuote"
-        android:layout_centerHorizontal="true" />
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp" />
 
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-    android:text="Description"
-    android:id="@+id/descriptionOfQuote"
-    android:layout_below="@+id/imageQuote"
-    android:layout_centerHorizontal="true"
-    android:foregroundGravity="center"
-    android:textSize="19dp"/>
-
-    <TextView
+        android:id="@+id/descriptionOfQuote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="authorQuote"
-        android:paddingTop="5dip"
-        android:id="@+id/authorQuote"
-        android:textSize="18dp"
-        android:layout_below="@+id/descriptionOfQuote"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:paddingTop="20dp"
+        android:layout_below="@+id/imageQuote"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:paddingLeft="15dp"
+        android:text="Description"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="19dp" />
 
+    <TextView
+        android:id="@+id/authorQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/descriptionOfQuote"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="authorQuote"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18dp" />
 
 
     <LinearLayout
         android:id="@+id/buttonBar"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingBottom="50dip"
-        android:layout_alignParentBottom="true">
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
 
         <ImageButton
-            android:foregroundGravity="bottom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:id="@+id/arrow_left"
-            android:src="@drawable/arrow_left"
-            android:background="?android:selectableItemBackground"/>
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_left" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:id="@+id/btn_share"
-            android:src="@drawable/share"
-            android:background="?android:selectableItemBackground"/>
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/share" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:id="@+id/arrow_right"
-            android:src="@drawable/arrow_right"
-            android:background="?android:selectableItemBackground"/>
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_right" />
 
     </LinearLayout>
 

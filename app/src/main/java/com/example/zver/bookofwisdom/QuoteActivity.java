@@ -3,6 +3,10 @@ package com.example.zver.bookofwisdom;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.content.res.AssetManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.support.annotation.IdRes;
 import android.support.design.widget.FloatingActionButton;
@@ -33,14 +37,16 @@ import com.example.zver.bookofwisdom.DataArticle.Items;
 import org.json.JSONException;
 
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class QuoteActivity extends AppCompatActivity {
 
+    public static final String myLog = "myLog";
+
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private static ViewPager mViewPager;
-
-    private static int current;
 
 
     @Override
@@ -52,9 +58,8 @@ public class QuoteActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
-
-
+        String titleActionBar = this.getIntent().getExtras().getString("title");
+        getSupportActionBar().setTitle(titleActionBar);
 
 
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -62,18 +67,13 @@ public class QuoteActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        int currentItem = Integer.parseInt(this.getIntent().getExtras().getString("positionItem"));
-        mViewPager.setCurrentItem(currentItem);
-        current = mViewPager.getCurrentItem();
-
-
+        mViewPager.setCurrentItem(0);
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
     }
-
 
     public static class PlaceholderFragment extends Fragment {
 
@@ -97,7 +97,6 @@ public class QuoteActivity extends AppCompatActivity {
             fragment.setArguments(args);
 
 
-
             return fragment;
         }
 
@@ -105,79 +104,69 @@ public class QuoteActivity extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_quote, container, false);
+
+            Toolbar toolbar = (Toolbar) rootView.findViewById(R.id.toolbar);
+            ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+
+
+
+
             descriptionText = (TextView) rootView.findViewById(R.id.descriptionOfQuote);
             authorQuote = (TextView) rootView.findViewById(R.id.authorQuote);
             imageView = (ImageView) rootView.findViewById(R.id.imageQuote);
 
-           DetailGroupActivity.FragmentDetailGroup fragmentDetailGroup = new DetailGroupActivity.FragmentDetailGroup();
-
-
             positionOfGroup = Integer.parseInt(getActivity().getIntent().getExtras().getString("positionGroup"));
-            Log.e("positionOfGroup", positionOfGroup + "");
 
-            ParserJSON parserJSON = new ParserJSON(getActivity());
-            arrayItems = new ArrayList<>();
+
+
+            Log.e(myLog,"positionOfGroup " + positionOfGroup);
+            Log.i(myLog,"positionOfItems "+ positionOfItems);
+
+
+
+            //Parse JSON
             try {
+                arrayItems = new ArrayList<>();
+                ParserJSON parserJSON = new ParserJSON(getActivity());
                 arrayItems = parserJSON.getDataItems(positionOfGroup);
-            }catch (JSONException e){
+            } catch (JSONException e) {
                 Log.e("Error JSON", e + "");
             }
 
 
+            imageView.setImageBitmap(arrayItems.get(positionOfItems).getImage(getActivity()));
+            descriptionText.setText(arrayItems.get(positionOfItems).getContent());
+            authorQuote.setText(arrayItems.get(positionOfItems).getTitle());
 
-            final ArrayList<String> description = new ArrayList<>();
-            ArrayList<String> imagePath = new ArrayList<>();
-            final ArrayList<String> title = new ArrayList<>();
-            for (Items items : arrayItems){
-                description.add(items.getContent());
-                imagePath.add(items.getImagePath());
-                title.add(items.getTitle());
-            }
 
-            Log.i("positionOfItems", positionOfItems + "");
-
-            imageView.setImageBitmap(fragmentDetailGroup.getImage(getContext(), imagePath.get(positionOfItems)));
-            descriptionText.setText(description.get(positionOfItems));
-            authorQuote.setText(title.get(positionOfItems));
-
+            //Bottom buttons group
 
             ImageButton arrow_right = (ImageButton) rootView.findViewById(R.id.arrow_right);
             ImageButton arrow_left = (ImageButton) rootView.findViewById(R.id.arrow_left);
-            //ImageButton copy_btn = (ImageButton) rootView.findViewById(R.id.btn_copy);
             ImageButton share_btn = (ImageButton) rootView.findViewById(R.id.btn_share);
 
             arrow_left.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    QuoteActivity.mViewPager.setCurrentItem(mViewPager.getCurrentItem()-1);
+                    QuoteActivity.mViewPager.setCurrentItem(mViewPager.getCurrentItem() - 1);
                 }
             });
 
             arrow_right.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    QuoteActivity.mViewPager.setCurrentItem(mViewPager.getCurrentItem()+1);
+                    QuoteActivity.mViewPager.setCurrentItem(mViewPager.getCurrentItem() + 1);
                 }
             });
 
-//            copy_btn.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-//
-//                    ClipboardManager clipboard = (ClipboardManager) getActivity().getSystemService(Context.CLIPBOARD_SERVICE);
-//                    clipboard.setText(description.get(positionOfItems));
-//                    Log.e("Action: copy_btn", description.get(positionOfItems));
-//                    Toast.makeText(getActivity(), "copy is was made", Toast.LENGTH_SHORT).show();
-//                }
-//            });
 
             share_btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
-                    sendIntent.putExtra(Intent.EXTRA_TEXT, description.get(positionOfItems)
-                            + "\n" + title.get(positionOfItems));
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, arrayItems.get(positionOfItems).getContent()
+                            + "\n" + arrayItems.get(positionOfItems).getTitle());
                     sendIntent.setType("text/plain");
                     startActivity(sendIntent);
                 }
@@ -186,6 +175,8 @@ public class QuoteActivity extends AppCompatActivity {
 
             return rootView;
         }
+
+
 
     }
 
@@ -204,13 +195,12 @@ public class QuoteActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-
-            return DetailGroupActivity.FragmentDetailGroup.size;
+            return 12;
         }
 
         @Override
-        public CharSequence getPageTitle(int position){
-            return "1";
+        public CharSequence getPageTitle(int position) {
+            return  position + "";
         }
 
     }

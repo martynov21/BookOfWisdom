@@ -14,22 +14,20 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
+import android.widget.Button;
 
-import com.example.zver.bookofwisdom.CustomAdapter.ItemsOfRow;
 import com.example.zver.bookofwisdom.DataArticle.Groups;
-import com.example.zver.bookofwisdom.DataArticle.RecyclerItemClickListener;
-
 import org.json.JSONException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
+import it.gmariotti.cardslib.library.internal.CardExpand;
+
 public class FragmentMainList extends Fragment {
 
-    ArrayList<Groups> dataGroups;
-
     ArrayList<ItemsOfRow> itemsOfRows;
+    final static String myLog = "myLog";
 
 
     public FragmentMainList() {
@@ -46,69 +44,51 @@ public class FragmentMainList extends Fragment {
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.rv);
         rv.setHasFixedSize(true);
 
-        LinearLayoutManager llm = new LinearLayoutManager(getActivity());
-        rv.setLayoutManager(llm);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+        rv.setLayoutManager(layoutManager);
 
-        itemsOfRows = new ArrayList<>();
 
-        ParserJSON parserJSON = new ParserJSON(getActivity());
+        //PARSE DATA
         try {
-            dataGroups = parserJSON.getDataGroups();
+            ParserJSON parserJSON = new ParserJSON(getActivity());
+            dataInCardView(parserJSON.getDataGroups());
 
-
-            for (Groups groups : dataGroups) {
-                ItemsOfRow item = new ItemsOfRow();
-
-                item.setTitleName(groups.getTitle());
-                item.setTitleContent(groups.getDescription());
-                item.setTitleImage(getImage(getActivity(), groups.getImagePath()));
-
-                itemsOfRows.add(item);
-            }
         } catch (JSONException e) {
-            Log.e("Error", e + "");
+            Log.e(myLog,"##Error" + e);
         }
 
 
-        RVAdapter adapter = new RVAdapter(itemsOfRows);
+        RVAdapter adapter = new RVAdapter(itemsOfRows,getContext());
         rv.setAdapter(adapter);
-
-        rv.addOnItemTouchListener(
-                new RecyclerItemClickListener(getActivity(), new RecyclerItemClickListener.OnItemClickListener() {
-                    @Override public void onItemClick(View view, int position) {
-                        Intent intent = new Intent(getActivity(), DetailGroupActivity.class).putExtra(Intent.EXTRA_TEXT, position + "");
-                        startActivity(intent);
-                    }
-                })
-        );
-
-//        groupsTitleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-//                Intent intent = new Intent(getActivity(), DetailGroupActivity.class).putExtra(Intent.EXTRA_TEXT, i + "");
-//                startActivity(intent);
-//            }
-//        });
-
         return view;
+    }
+
+    public void dataInCardView (ArrayList<Groups> dataGroups){
+        itemsOfRows = new ArrayList<>();
+        for (Groups groups : dataGroups) {
+            ItemsOfRow item = new ItemsOfRow();
+
+            item.setTitleName(groups.getTitle());
+            item.setTitleContent(groups.getDescription());
+            item.setTitleImage(getImage(getActivity(), groups.getImagePath()));
+
+            itemsOfRows.add(item);
+        }
     }
 
 
     public Bitmap getImage(Context context, String imagePath) {
-
         Bitmap image = null;
-
         try {
             AssetManager assetManager = context.getAssets();
             InputStream in = assetManager.open(imagePath);
             image = BitmapFactory.decodeStream(in);
-
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
 
         if (image == null) {
-            Log.e("Bitmap", "Bitmap null");
+            Log.e(myLog, "Bitmap image - null");
         }
         return image;
     }
